@@ -1,0 +1,406 @@
+ 
+/********************************************/
+/* Hey there. This stylesheet is broken up 
+into the following sections.
+
+SECTION 1: GENERAL STYLES
+SECTION 2: CUSTOM CLASSES & IDS
+SECTION 3: BUTTONS
+SECTION 4: MENU AND NAV
+SECTION 5: OFF CANVAS NAV
+SECTION 6: MAIN DIVS AS THEY APPEAR IN THE HTML
+SECTION 7: FOOTER
+SECTION 8: MEDIA QUERIES - THIS SITE WAS BUILT 
+MOBILE FIRST. SO THE MEDIA QUERIES PERTAIN TO 
+MEDIUM AND LARGE SCREENS. */
+/********************************************/
+
+/********************************************/
+/* GENERAL STYLES */
+/********************************************/
+ * {
+ 	box-sizing: border-box;
+ }
+
+body {
+    background-color: #F6F6FC;
+}
+
+h1, h2, h3 {
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #B4BBE1;
+}
+
+.hero {
+    background-color: #888CB9;
+    color: white;
+}
+    
+ .hero h1 {
+        color: white;
+    }
+
+.articles {
+    padding: 2em;
+}
+
+.articletext {
+    padding: 3em;
+}
+
+.articlehero {
+    background-image: url("../img/gabriel-matula-dark.jpg");  
+    background-size: cover;
+    padding: 2em;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    color: white;
+}
+
+.button {
+     background-color: lavender;
+    border-color: white;
+    color: #888CB9;
+    }
+
+.form_div {
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.loginbody {
+        background-image: url("../img/lukasz-lada-275650.jpg");
+        background-size: cover;
+    }
+
+.logo {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+.form_label {
+    color: white;
+}
+
+.footerdesktop {
+    background-color: #888CB9;
+    color: white;
+    position: relative;
+}
+
+.messagebox {
+    background-color: #98A3DE;
+}
+
+.forum1, .forum2, .forum3, .forum4, .forum5 {
+}
+
+.catergory {
+    text-align: center;
+}
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+/* Medium screens */
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+
+ * {
+ 	box-sizing: border-box;
+ }    
+    
+body {
+    background-color: #F6F6FC;
+}
+    
+h1, h2, h3 {
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+    
+    .loginbody {
+        background-image: url("../img/lukasz-lada-275650.jpg");
+        background-size: cover;
+    }
+
+header {
+    background-image: url("../img/exhale_woman_new.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 6em;
+}
+    
+.logo {
+    width: 50%;
+    margin-right: 90px;
+    }
+    
+.hero {
+    padding: 5em;
+    background-color: #888CB9;
+    text-align: center;
+    color: white;
+    }
+    
+ .hero h1 {
+        color: white;
+    }
+    
+.button {
+     background-color: lavender;
+    border-color: white;
+    color: #888CB9;
+    }
+
+.heading {
+    margin-left: -25px;
+    color: white;
+}
+
+.socialmedia {
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.chatroom {
+    background-color: #D9DAF1;
+    color: #888CB9;
+    padding: 1.5em;
+}
+
+.chatroom p {
+}
+
+.textleft {
+    margin-left: 60px;
+}
+
+.textright {
+    margin-right: 60px;
+}
+
+.hotline {
+    margin-left: 60px;
+    width: 25%;
+}
+
+i {
+    color:white;
+}
+
+.articles {
+    padding: 3em;
+}
+
+.articlehero {
+    background-image: url("../img/gabriel-matula-dark.jpg");  
+    padding: 15em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.zazzarticle {
+    color: #888CB9;
+}
+
+.forumhero {
+    background-image: url(../img/beata-ratuszniak-5428.jpg);
+    background-size: auto;
+    padding: 15em 0;
+}
+    
+.menuhero {
+    background-image: url(../img/lukasz-lada-275650.jpg);
+    background-size: auto;
+    padding: 15em 0;
+}
+
+.forum {
+    padding: 2em;
+}
+
+.textbox2 h5 {
+    text-align: right;
+}
+
+.textbox4 h5 {
+    text-align: right;
+}
+
+.messagebox {
+    background-color: #98A3DE;
+}
+
+.messageask {
+    background-color: #D9DAF1;
+    padding: 3em;
+}
+
+.messageresponse {
+    background-color: #98A3DE;
+    color: white;
+    padding: 3em;
+}
+
+.form_label {
+    color: white;
+}
+
+/*.form_div {*/
+/*    height: 100%;*/
+/*    padding:10em;*/
+/*}*/
+
+.footerdesktop {
+    background-color: #888CB9;
+    color: white;
+    position: relative;
+    padding: 2rem;
+}
+
+.footerdesktop a {
+    text-decoration: none;
+}
+
+.footerdesktop a:hover {
+    color: white;
+}
+
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:30px;
+}
+.form_div
+{
+width:50%;
+margin-left:30%;
+padding-left:0px;
+padding-right:0px;
+}
+.form_div input[type="text"],input[type="password"]
+{
+width:80%;
+}
+.form_div textarea
+{
+width:80%;
+}
+.form_div input[type="submit"]
+{
+width:80%;
+}
+}
+
+.special_links {
+}
+
+.link_title {
+    color: #888CB9;
+}
+
+.resource {
+    color:#98A3DE;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.videos {
+    padding: 2em;
+}
+
+.scroll_img {
+}
+
+.example-orbit {
+    width: 95%;
+}
+
+.about {
+    padding: 3em;
+}
+
+.forum1, .forum2, .forum3, .forum4, .forum5 {
+    padding: 8em;
+}
+
+.category {
+    text-align: right;
+    color: white;
+}
+
+.forum1 {
+    background-image: url("../img/beata-ratuszniak-5428.jpg");
+    background-size: cover;
+}
+
+.forum2 {
+    background-image: url("../img/ian-espinosa-311604.jpg");
+    background-size: cover;
+}
+
+.forum3 {
+    background-image: url("../img/holly-mindrup-59816.jpg");
+    background-size: cover;
+}
+
+.forum4 {
+    background-image: url("../img/timon-klauser-308449.jpg");
+    background-size: cover;
+}
+
+.forum5 {
+    background-image: url("../img/thought-catalog-214785.jpg");
+    background-size: cover;
+}
+
+.forum4 h1 {
+    color: white;
+}
+
+.forum5 h1 {
+    color: white;
+}
+
+.icon {
+    width: 85%;
+}
+/* min-width 1025px, large screens */
+/* Large screens */
+@media only screen and (min-width: 64.063em) { 
+
+} 
+

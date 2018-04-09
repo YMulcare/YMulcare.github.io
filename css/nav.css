@@ -1,0 +1,64 @@
+/* GENERAL NAVIGATION STYLES - FYI */
+
+/* Stylizes the full-width (and most parent container) of the nav. */
+nav {
+
+}
+
+.contain-to-grid {
+	background: #888CB9;
+}
+
+/* An area within the nav container you might want to know about. */
+.top-bar {
+	background: #888CB9;
+	z-index: 700;
+}
+
+/* Stylizes the title area. */
+.title-area {
+	background: #888CB9;
+}
+
+/* Stylizes your anchors. */
+.top-bar-section ul li > a {
+    font-family: 'Dosis', sans-serif;
+	color: #eee;
+	font-size: .9rem;
+}
+
+/* Stylizes the nav element background and other basic stuff. */
+.top-bar-section li:not(.has-form) a:not(.button) {
+    /*padding: 0 1em;*/
+    background: #888CB9;
+}
+
+/* Stylizes the nav element for current page. */
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    background: #D9DAF1;
+    color: #fff;
+}
+
+/* Stylizes the hover state for the nav element for current page. */
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background: #D9DAF1;
+	color: #fff;
+}
+
+/* Hover state for your nav elements. */
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: #888CB9;
+	color: #eee;
+}
+
+/* Stylizes the sub-nav elements. */
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+	background: #888CB9;
+	color: white;
+}
+
+/* Stylizes the hover state for the sub-nav element. */
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
+	background: #D9DAF1 !important;
+	color: white;
+}
